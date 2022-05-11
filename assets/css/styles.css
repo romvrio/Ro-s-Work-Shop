@@ -1,0 +1,25 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    --primary-color: #edeff2;
+    --secondary-color: #1e64c7;
+    --primary-font: Helvetica, Arial, sans-serif;
+    --secondary-font: sans-serif, Helvetica, Arial;
+}
+
+nav {
+    display: flex;
+    background-color: var(--primary-color);
+    padding: 25px 0px 10px 0px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-decoration: none;
+}
+
+
+.nav-link {
+    text-decoration: none;
+    font-size: 20px;
+    font-family: var(--primary-font);
+    color: var(--secondary-color);
+}
