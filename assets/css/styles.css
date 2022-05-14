@@ -8,6 +8,8 @@ body {
     --secondary-font: sans-serif, Helvetica, Arial;
 }
 
+
+
 /* NAV START */
 nav {
     display: flex;
@@ -65,3 +67,27 @@ nav {
 
 /* FOOTER */
 
+#contact-me {
+    padding: 25px 10px 20px 10px;
+    width: 100%;
+    background-color: var(--primary-color);
+    display: flex;
+    flex: wrap;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+.find-me {
+    margin: 0 auto;
+}
+
+
+.socials {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+#contact-form {
+    margin: 0 auto;
+}
