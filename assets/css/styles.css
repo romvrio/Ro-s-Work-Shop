@@ -15,6 +15,12 @@ body {
     justify-content: center;
 }
 
+.primary-text {
+    font-family: var(--primary-font);
+    display: flex;
+    flex-wrap: wrap;
+}
+
 /* NAV START */
 nav {
     display: flex;
@@ -74,13 +80,33 @@ nav {
 
 /* PROJECTS */
 
+#service {
+    height: 300px;
+    width: 100%;
+    border: solid black 4px;
+    background-color: var(--secondary-color);
+}
+
+.service-info {
+    color: var(--third-color);
+}
+
+.service-title {
+    font-size: 30px;
+}
+
+.service-text {
+    text-align: center;
+    line-height: 26px;
+    font-size: 25px
+}
 
 /* PROJECTS END */
 
 /* FOOTER */
 
 #contact-me {
-    padding: 25px 0 20px 0;
+    padding: 300px 0 20px 0;
     width: 100%;
     background-color: var(--primary-color);
     display: flex;
